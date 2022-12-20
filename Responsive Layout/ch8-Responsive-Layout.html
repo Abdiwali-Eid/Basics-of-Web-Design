@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ch8-Responsive-Layout.css">
+    <link href="lighthousemobile.css" rel="stylesheet" media="(max-width:
+480px)">
+
+<link href="lighthousetablet.css" rel="stylesheet" media="(min-width: 768px)
+and (max-width: 1024px)">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="gallery">
+        <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+        <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted
+        Grosbeak">
+        <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+        <img src="bird4.jpg" width="200" height="150" alt="Rock Wren">
+        <img src="bird5.jpg" width="200" height="150" alt="Coopers Hawk">
+        <img src="bird6.jpg" width="200" height="150" alt="Immature Bald Eagle">
+        </div> -->
+
+        <!-- grid -->
+        <div id="gallery">
+            <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+            <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted
+            Grosbeak">
+            <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+            <img src="bird4.jpg" width="200" height="150" alt="Rock Wren">
+            <img src="bird5.jpg" width="200" height="150" alt="Coopers Hawk">
+            <img src="bird6.jpg" width="200" height="150" alt="Immature Bald Eagle">
+            </div>
+           
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="large.jpg">
+                    <source media="(min-width: 800px)" srcset="medium.jpg">
+                    <source media="(min-width: 320px)" srcset="small.jpg">
+                    <img src="fallback.jpg" alt="waterwheel">
+                    </picture>
+</body>
+</html>

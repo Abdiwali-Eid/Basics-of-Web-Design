@@ -1,0 +1,59 @@
+.div1 { width: 200px;
+    height: 200px;
+    background-color: #D1ECFF;
+    border: 3px dashed #000000;
+    padding: 5px; }
+    .div2 { width: 100px;
+        height: 100px;
+        background-color: #ffffff;
+        border: 3px ridge #000000;
+        padding: 5px;
+        margin: 10px; }
+
+        h1 { background-color: #A8C682;
+            padding: 5px;
+            color: #000000; }
+            p { font-family: Arial, sans-serif; }
+            #yls { float: right;
+            margin: 0 0 5px 5px;
+            border: 1px solid #000000; }
+            float { float: left;
+                margin-right: 10px;
+                border: 3px ridge #000000; }
+                .clearleft { clear: left; }
+                .clearleft { clear: left; }
+
+                div { background-color: #F3F1BF;
+                    overflow: auto;
+                    width: 100%; }
+                    div { background-color: #F3F1BF;
+                        overflow: scroll;
+                        width: 300px;
+                        height: 100px;
+                        }
+       nav ul { list-style-type: none;
+           padding: 10px; }
+    nav a { text-decoration: none;
+            padding: 10px;
+            font-weight: bold; }
+                       
+            nav ul { list-style-type: none; }
+            nav li { display: inline; }
+            nav a { text-decoration: none; padding-right: 10px; }
+            nav ul { list-style-type: none;
+                text-align: center;
+                font-size: 1.5em;
+                margin: 5px; }
+                nav a { text-decoration: none;
+                    padding-left: 10px;
+                    padding-right: 10px; }
+                    a:link { color: #ff0000; }
+                    a:hover { text-decoration: none;
+                    color: #000066; }
+
+                    p { position: relative;
+                        left: 30px;
+                        font-family: Arial, sans-serif; }
+                        h1 { background-color: #cccccc;
+                        padding: 5px;
+                        color: #000000; }
